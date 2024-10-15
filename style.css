@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    gap: 2px;
+    border: solid 2px;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+}
+.container > *{
+    height: 50px;
+    /* width: 100px; */
+    text-align: center;
+    flex-basis: 200px;
+    max-width: 300px;
+   
+}
+.red{
+    background-color: red;
+    order: 0;
+}
+.orange{
+    background-color: orange;
+    order: 1;
+}
+.yellow{
+    background-color: yellow;
+    order: 2;
+}
+.green{
+    background-color: green;
+    order: 3;
+}
+.blue{
+    background-color: blue;
+    order: 4;
+}
+.indigo{
+    background-color: indigo;
+    order: 5;
+}
+.violet{
+    background-color: violet;
+    order: 6;
+}
